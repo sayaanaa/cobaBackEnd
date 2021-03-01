@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
+const autoIncrement = require('mongoose-auto-increment')
+
 const dataLahanSchema = new Schema ({
     nik: {
         type: Number,
@@ -7,6 +9,10 @@ const dataLahanSchema = new Schema ({
     },
     nama: {
         type: String,
+        required: true
+    },
+    idLahan: {
+        type: Number,
         required: true
     },
     luasLahan: {
@@ -19,18 +25,18 @@ const dataLahanSchema = new Schema ({
             Longitude: Number
         }
     ],
-    jenisTanaman: {
-        type: String,
-        required: true
-    },
-    tanggalTanam: {
-        type: Date,
-        required: true
-    },
-    usiaTanam: {
+    alamatLahan: {
         type: String,
         required: true
     }
+})
+
+autoIncrement.initialize(mongoose.connection)
+dataLahanSchema.plugin(autoIncrement.plugin, {
+    model: 'dataLahan',
+    field: 'idLahan',
+    startAt: 1004,
+    incrementBy: 1,
 })
 
 module.exports = mongoose.model('dataLahan', dataLahanSchema)

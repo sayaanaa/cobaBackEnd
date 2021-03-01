@@ -2,16 +2,18 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const dataAdminSchema = new Schema({
+    nik: {
+        type: Number,
+        index: {
+            unique: true
+        }
+    },
     nama: {
         type: String,
         required: true
     },
     tglLahir: {
         type: Date,
-        required: true
-    },
-    username: {
-        type: String,
         required: true
     },
     kodeRole: {
@@ -32,4 +34,4 @@ const dataAdminSchema = new Schema({
     }
 })
 
-module.exports = mongoose.model('dataAdmin', dataAdminSchema)
+module.exports = mongoose.model('dataAdmins', dataAdminSchema)

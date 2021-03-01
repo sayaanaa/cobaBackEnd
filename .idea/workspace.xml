@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="36918598-9288-4989-bfcb-0b0f0a031965" name="Default Changelist" comment="" />
+    <list default="true" id="36918598-9288-4989-bfcb-0b0f0a031965" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/dataPanen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/dataPanen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/dataPanen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/dataAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/dataAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/dataLahan.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/dataLahan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/dataUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/dataUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dataAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dataAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dataLahan.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dataLahan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ini/ini.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ini/ini.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ini/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ini/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/dataAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dataAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/dataLahan.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dataLahan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/dataUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dataUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +53,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kJygc7dGzJhXNZkSzH9AZ9yGZp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new front end" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CONTOH/Backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,26 +122,116 @@
       <workItem from="1608696655137" duration="797000" />
       <workItem from="1608710133075" duration="3641000" />
       <workItem from="1608815765396" duration="3328000" />
-      <workItem from="1608880131572" duration="3489000" />
+      <workItem from="1608880131572" duration="3592000" />
+      <workItem from="1609159809215" duration="1861000" />
+      <workItem from="1609335354384" duration="1764000" />
+      <workItem from="1609742791717" duration="4276000" />
+      <workItem from="1609753573761" duration="1528000" />
+      <workItem from="1609817671128" duration="2198000" />
+      <workItem from="1609829345451" duration="6318000" />
+      <workItem from="1609852171302" duration="1867000" />
+      <workItem from="1609916961258" duration="3438000" />
+      <workItem from="1610034401726" duration="886000" />
+      <workItem from="1610087722043" duration="101000" />
+      <workItem from="1610087836669" duration="7662000" />
+      <workItem from="1610113739032" duration="4129000" />
+      <workItem from="1610165331771" duration="1671000" />
+      <workItem from="1610200127761" duration="2727000" />
+      <workItem from="1610351780738" duration="2206000" />
+      <workItem from="1610419873676" duration="2083000" />
+      <workItem from="1610522836124" duration="2770000" />
+      <workItem from="1610609619459" duration="4283000" />
+      <workItem from="1610628353778" duration="3409000" />
+      <workItem from="1610693545362" duration="6215000" />
+      <workItem from="1610887374453" duration="2790000" />
+      <workItem from="1610952141785" duration="6015000" />
+      <workItem from="1610979377030" duration="57000" />
+      <workItem from="1611037986709" duration="7141000" />
+      <workItem from="1611063656081" duration="2001000" />
+      <workItem from="1611129395852" duration="8569000" />
+      <workItem from="1611212717956" duration="7359000" />
+      <workItem from="1611497370796" duration="749000" />
+      <workItem from="1611560180626" duration="1218000" />
+      <workItem from="1611562010227" duration="3435000" />
+      <workItem from="1611647407481" duration="4560000" />
+      <workItem from="1611670373599" duration="1289000" />
+      <workItem from="1611730344417" duration="4050000" />
+      <workItem from="1611814323134" duration="4197000" />
+      <workItem from="1611903962874" duration="6796000" />
+      <workItem from="1612098405892" duration="1135000" />
+      <workItem from="1612162855842" duration="11824000" />
+      <workItem from="1612191925392" duration="716000" />
+      <workItem from="1612249626103" duration="9373000" />
+      <workItem from="1612274989133" duration="1197000" />
+      <workItem from="1612340656168" duration="4961000" />
+      <workItem from="1612419931340" duration="1207000" />
+      <workItem from="1612430703157" duration="2138000" />
+      <workItem from="1612495281161" duration="4349000" />
+      <workItem from="1612508966021" duration="4842000" />
+      <workItem from="1612767488154" duration="2242000" />
+      <workItem from="1612852470357" duration="14185000" />
+      <workItem from="1612939408872" duration="6064000" />
+      <workItem from="1612971929609" duration="3956000" />
+      <workItem from="1613027194790" duration="5235000" />
+      <workItem from="1613100274320" duration="4547000" />
+      <workItem from="1613112998006" duration="10575000" />
+      <workItem from="1613190750743" duration="997000" />
+      <workItem from="1613225472218" duration="283000" />
+      <workItem from="1613372941275" duration="7541000" />
+      <workItem from="1613457944627" duration="6932000" />
+      <workItem from="1613550191936" duration="3739000" />
+      <workItem from="1613571802569" duration="1555000" />
+      <workItem from="1613632572703" duration="9221000" />
+      <workItem from="1613719607621" duration="1668000" />
+      <workItem from="1613760544894" duration="413000" />
+      <workItem from="1613788047043" duration="799000" />
+      <workItem from="1613803922739" duration="8913000" />
+      <workItem from="1613835324829" duration="591000" />
+      <workItem from="1613899835351" duration="834000" />
+      <workItem from="1613917617251" duration="1233000" />
+      <workItem from="1614091022655" duration="1080000" />
+      <workItem from="1614139765656" duration="901000" />
+      <workItem from="1614328470304" duration="4617000" />
+      <workItem from="1614394297653" duration="2873000" />
+      <workItem from="1614408599978" duration="7305000" />
+      <workItem from="1614514195654" duration="9210000" />
+      <workItem from="1614581869999" duration="700000" />
+      <workItem from="1614590200375" duration="764000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608880179375">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1613645457638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608880179375" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1606984140523">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613645457638" />
+    <state x="431" y="74" key="RollbackChangesDialog" timestamp="1611137724549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606984140523" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605433864439">
+    <state x="431" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611137724549" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1611910566902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605433864439" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1611910566902" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611216435872">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611216435872" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -128,12 +258,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controller/dataLahan.js</url>
-          <line>33</line>
+          <line>114</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controller/dataLahan.js</url>
-          <line>32</line>
+          <line>113</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

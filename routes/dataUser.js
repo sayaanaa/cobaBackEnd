@@ -1,12 +1,14 @@
 const dataUser = require('express')()
 const usersController = require('../controller/dataUser')
 
+// ANDROID ONLY
 dataUser.post('/regis', (req, res) => {
     usersController.regis(req.body)
         .then (result => res.json(result))
         .catch(err => res.json(err))
     })
 
+// ANDROID ONLY
 dataUser.post('/loginReg', (req, res) => {
     usersController.loginReg(req.body)
         .then (result => res.json(result))
@@ -25,8 +27,21 @@ dataUser.get('/getAllUser', (req, res) => {
         .catch(err => res.json(err))
 })
 
-dataUser.get('/getNik', (req, res) => {
-    usersController.getNik()
+// ANDROID ONLY
+dataUser.get('/getByNik/:nik', (req, res) => {
+    usersController.getByNik(req.params.nik)
+        .then(result => res.json(result))
+        .catch(err => res.json(err))
+})
+
+dataUser.get('/getUserById/:id', (req, res) => {
+    usersController.getUserById(req.params.id)
+        .then(result => res.json(result))
+        .catch(err => res.json(err))
+})
+
+dataUser.put('/updateDataUser/:id', (req, res) => {
+    usersController.updateUser(req.params.id, req.body)
         .then(result => res.json(result))
         .catch(err => res.json(err))
 })

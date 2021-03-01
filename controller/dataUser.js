@@ -22,13 +22,13 @@ exports.regis = (data) =>
                     dataUser.create(data)
                         .then(res => {
                             resolve({
-                                error: true,
+                                error: false,
                                 msg: 'Registrasi berhasil'
                             })
                         })
                         .catch(() => {
                             reject({
-                                error: false,
+                                error: true,
                                 msg: 'Registrasi gagal'
                             })
                         })
@@ -73,13 +73,13 @@ exports.getAllUser = () =>
             .then(res => {
                 resolve({
                     error: false,
-                    pesan: 'Berhasil mengambil data',
+                    msg: 'Berhasil mengambil data',
                     data: res
                 })
             }).catch(() => {
             reject({
                 error: true,
-                pesan: 'Gagal mengambil data'
+                msg: 'Gagal mengambil data'
             })
         })
     })
@@ -92,12 +92,12 @@ exports.updateUser = (data, id) =>
             .then(res =>{
                 resolve({
                     error: false,
-                    pesan: 'Berhasil Mengubah Data'
+                    msg: 'Berhasil Mengubah Data'
                 })
             }).catch(()=>{
             reject({
                 error: false,
-                pesan: 'Gagal Mengubah Data'
+                msg: 'Gagal Mengubah Data'
             })
         })
     })
@@ -119,36 +119,41 @@ exports.deleteDataUser = (id) =>
         })
     })
 
-exports.getNik = () =>
+// ANDROID ONLY
+exports.getByNik = (nik) =>
     new Promise((resolve, reject) => {
-        dataUser.find()
+        dataUser.findOne({
+            nik: nik
+        })
             .then(res => {
                 resolve({
+                    error: false,
+                    msg: 'Berhasil mengambil data',
                     data: res
                 })
             }).catch(() => {
             reject({
                 error: true,
-                pesan: 'Gagal mengambil data'
+                msg: 'Gagal mengambil data'
             })
         })
     })
 
-// exports.getbyid = (id) =>
-//     new Promise((resolve, reject) => {
-//         mkModel.find({
-//             _id: Object(id)
-//         })
-//             .then(res => {
-//                 resolve({
-//                     error: false,
-//                     pesan: 'Get data succeeded',
-//                     data: res
-//                 })
-//             }).catch(() => {
-//             reject({
-//                 error: true,
-//                 pesan: 'Get data failed'
-//             })
-//         })
-//     })
+exports.getUserById = (id) =>
+    new Promise((resolve, reject) => {
+        dataUser.findOne({
+            _id: Object(id)
+        })
+            .then(res => {
+                resolve({
+                    error: false,
+                    msg: 'Berhasil mengambil data',
+                    data: res
+                })
+            }).catch(() => {
+            reject({
+                error: true,
+                msg: 'Gagal mengambil data'
+            })
+        })
+    })
